@@ -1,4 +1,4 @@
-package com.cls.scanner;
+package com.cls.scanner.files;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,12 +7,12 @@ import lombok.Setter;
 import java.util.Set;
 
 /**
- * Created by Mis on 2017-07-24.
+ * The class is POJO for holding data of loaded text files from init directory.
  */
 @Getter
 @Setter
 @AllArgsConstructor
-public class ScanedFile {
+public class ScannedFile {
 
     private String filename;
     private Set<String> content;

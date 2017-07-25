@@ -1,5 +1,8 @@
 package com.cls.scanner;
 
+import com.cls.scanner.files.FilesStorage;
+import com.cls.scanner.search.SearchProcessor;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -7,7 +10,7 @@ import java.nio.file.Paths;
 import java.util.Scanner;
 
 /**
- * Created by Mis on 2017-07-24.
+ * Main application class which runs interactive console.
  */
 public class Main {
 

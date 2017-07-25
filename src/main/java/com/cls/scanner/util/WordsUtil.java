@@ -1,4 +1,4 @@
-package com.cls.scanner;
+package com.cls.scanner.util;
 
 import java.util.Arrays;
 import java.util.Set;
@@ -7,7 +7,9 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * Created by Mis on 2017-07-24.
+ *  The class provides static method where line of loaded text file is
+ *  formatted to Set of Strings. It cleans line from all special characters
+ *  that are not words.
  */
 public class WordsUtil {
 
@@ -19,7 +21,7 @@ public class WordsUtil {
                 .collect(Collectors.toSet());
     }
 
-    public static Stream<String> splitWords(String s) {
+    private static Stream<String> splitWords(String s) {
         return Arrays.stream(s.split("\\W+"));
     }
 }

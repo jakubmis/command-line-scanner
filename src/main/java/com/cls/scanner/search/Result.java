@@ -1,10 +1,10 @@
-package com.cls.scanner;
+package com.cls.scanner.search;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 /**
- * Created by Mis on 2017-07-24.
+ * The class is POJO for holding result from searching process.
  */
 @AllArgsConstructor
 @Getter
