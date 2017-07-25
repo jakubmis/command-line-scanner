@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 
 /**
  *  The class provides static method where line of loaded text file is
- *  formatted to Set of Strings. It cleans line from all special characters
+ *  formatted to Set of words. It cleans line from all special characters
  *  that are not words.
  */
 public class WordsUtil {
