@@ -5,4 +5,4 @@ Counting is not case sensitive and it does not care about duplicates. Ranking
 score formula is given be equation: [wordsFound / inputWordsSize].
 
 FilesStorage class keeps loaded files in collection. Files are distinguished by
-filename. Applications scans only .txt files.
+filename. Applications scans only .txt files. It is assumed that files will be "ISO-8859-1" encoded.
